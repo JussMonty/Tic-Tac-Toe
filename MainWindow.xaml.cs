@@ -1,5 +1,5 @@
 ﻿// Author: Muntadher Al-Bawi
-// Created: September 17, 2025
+// Created: November 4, 2025
 // Description: This program is a Tic Tac Toe game that allows you to put your name, track the score, play the game, show current player, exit and reset.
 
 using System.Text;
@@ -165,8 +165,8 @@ namespace BasicTicTacToe
                 {
                     XWins++;
                     XScoreDisplay.Text = XWins.ToString();
-                    MessageBox.Show(XPlayerName.Text + " (X) Wins!"); 
-                    IsXTurn = true; 
+                    MessageBox.Show(XPlayerName.Text + " (X) Wins!");
+                    IsXTurn = true;
                 }
                 else
                 {
