@@ -165,8 +165,8 @@ namespace BasicTicTacToe
                 {
                     XWins++;
                     XScoreDisplay.Text = XWins.ToString();
-                    MessageBox.Show(XPlayerName.Text + " (X) Wins!");
-                    IsXTurn = true;
+                    MessageBox.Show(XPlayerName.Text + " (X) Wins!"); 
+                    IsXTurn = true; 
                 }
                 else
                 {
